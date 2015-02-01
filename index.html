@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Charter Club</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/other_images/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <!-- intro animations -->
+    <link href="assets/js/wow/animate.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- lightbox -->
+    <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
+
+    <!-- styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- place your extra custom styles in this file -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- background image overlay (semi transparent dark background image overlay) -->
+    <!-- comment or remove if you don't want the overlay on top of the image -->
+    <div class="background-image-overlay"></div>
+
+    <!-- outer background container - the element from where the default page background image is set, and the element which changes its background when scrolling through other sections (.section-wrapoer) that have attribute "data-custom-background-img" set. 
+     - data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined.
+     - use same image in the backstretch.js code in the footer for IE8 or less browsers -->
+    <div id="outer-background-container" data-default-background-img="assets/images/other_images/charterg_smaller.jpg" style="background-image:url(assets/images/other_images/charterg_smaller.jpg);"></div>
+    <!-- end: #outer-background-container -->    
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+      <!-- Left Sidebar -->
+      <section id="left-sidebar">
+        
+        <!-- ==================================================================
+        LOGO 
+        ==================================================================  -->
+        <!-- change the img src to your logo -->
+        <div class="logo">
+          <a href="#intro" class="link-scroll"><img src="assets/images/other_images/logo.png" alt="Twilli Air"></a>
+        </div><!-- .logo -->
+        <!-- ==================== END: LOGO ==================== -->
+
+        <!-- Menu Icon for smaller viewports -->
+        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+        <!-- ==================================================================
+        MAIN MENU 
+        ==================================================================  -->
+        <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+             - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+             - set href of each <a> to the id of the .section-wrapper to link to -->
+        <ul id="main-menu">
+          <li id="menu-item-text" class="menu-item scroll"><a href="#about">About</a></li>
+          <li id="menu-item-grid" class="menu-item scroll"><a href="#club-week">Club Week</a></li>
+          <li id="menu-item-carousel" class="menu-item scroll"><a href="#carousel">Members</a></li>
+          <li id="menu-item-featured" class="menu-item scroll"><a href="#events">social events</a></li>
+          <!-- <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li> -->
+          <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+          <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+        </ul><!-- #main-menu -->
+        <!-- ==================== END: MAIN MENU ==================== -->
+
+      </section><!-- #left-sidebar -->
+      <!-- end: Left Sidebar -->
+
+      <!-- ==================================================================
+      MAIN CONTENT
+      ==================================================================  -->
+      <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+           - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+      <section id="main-content" class="clearfix">
+        
+        <!-- ==================== SECTION TYPE: Intro Text ==================== -->
+        <!-- This type of section should contain heading and intro paragraph. It can also include links to other sections -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/charterg_smaller.jpg">
+          <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <!-- <p> text in .feature-text is larger  -->
+                <section class="feature-text">
+                  <h1>Princeton Charter Club</h1>
+                  <p>Since 1901, undergraduates have joined Charter to be part of one of the friendliest and most dynamic social communities at Princeton. </p>
+                  <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                  <p><a href="#about" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
+                </section>
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Intro Text ==================== -->
+
+        <!-- ==================== SECTION TYPE: Text / Generic ==================== -->
+        <!-- This type of section should contain generic content (text, image, etc) -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="about" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/lawnparties_people.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title"> About Charter</h1>
+
+                <p><!-- <img data-img-src="assets/images/other_images/transp-image5b.png" class="lazy pull-right" alt="Lorem Ipsum"> -->Since its founding in 1901, Charter has been a club full of tradition. "The Indestructible," as the club is commonly referred to, is today most known for its "Charter Fridays". Charter's social calendar features many noteworthy events including monthly semi-formals, live bands, and weekly parties. Our food, including our bi-weekly pub nights, is consistently ranked some of the best on the street. </p>
+<!-- 
+                
+                <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                
+                
+                <div class="content-to-populate-in-modal" id="modal-content-1">
+                  <h1>Lorem Ipsum</h1>
+                  <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-right" alt="Lorem Ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna vel ante mollis tincidunt. Donec nec magna condimentum tortor laoreet lobortis. Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</p>
+                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
+                  <h3>Duis dictum lorem metus, vitae dapibus</h3>
+                  <p><img data-img-src="assets/images/other_images/transp-image3.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Sed auctor urna mi, sed fringilla felis vulputate nec. Cras eu nibh id quam pretium convallis. Donec ante enim, placerat nec sagittis sit amet, tempor in velit. Maecenas ultricies commodo lacus id porta. Suspendisse eros elit, lacinia vitae erat vitae, egestas accumsan nunc. Maecenas dictum odio ipsum, non volutpat erat consequat tempor. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui feugiat molestie sit amet eget purus. Morbi eget neque nec lectus tempus sagittis nec at ante. </p>
+                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
+                </div> -->
+                <!-- #modal-content-1 -->
+
+              <!-- End: Section content to edit --> 
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Text / Generic ==================== -->
+
+       <!-- ==================== SECTION TYPE: Features Grid ==================== -->
+        <!-- This type of section should contain a grid with separate items consisting of an icon and text -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="club-week" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/charter.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 col-md-10 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Club Week Events, Starting Feburary 2nd</h1>
+                <p> While bickerees are sweating bullets, we'll be chilling with our new sophomores.</p>  
+                <!-- grid -->
+                <!-- change class "clearfix-for-2cols" to number of columns to correspond with "col-md-6" class for each grid item -->
+                <!-- check add_clear_items_to_fix_grid_items_different_heights_issue() function -->
+                <section class="grid row clearfix clearfix-for-2cols">
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image1.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-picture"></span>
+                      <div class="text-content">
+                        <h5> Monday: TV/Games Night</h5>
+                        <p> Entertainment is important to us. See how Charter does it with late night movies in cozy TV rooms, hectic multiplayer shooters in the computer cluster, and casual board games in the UDR. </p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      
+                      <span class="icon glyphicon glyphicon-user"></span>
+                      <div class="text-content">
+                        <h5>Tuesday: Taproom Olympics </h5>
+                        <p> Get ready for the largest club week event as sophomores, juniors, and seniors face off in our taproom. Non-alcoholic beverages will also be provided. </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image7.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-headphones"></span>
+                      <div class="text-content">
+                        <h5>Wednesday: Study Break</h5>
+                        <p> Your residential college does study breaks. We do them better with mask-making, pluse a popcorn and candy bar. </p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-star"></span>
+                      <div class="text-content">
+                        <h5>Thursday: Masquerade Ball</h5>
+                        <p> We keep it classy here at Charter; this is the first semiformal event of the semester!</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-thumbs-up"></span>
+                      <div class="text-content">
+                        <h5>Friday: MasqueRAVE</h5>
+                        <p> Every Friday is Charter Friday. This one will be big. </p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+
+                
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <!-- <img data-img-src="assets/images/other_images/transp-image4.png" class="lazy icon" alt="Lorem Ipsum"> -->
+                      <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                      <span class="icon glyphicon glyphicon-glass"></span>
+                      <div class="text-content">
+                        <h5>Saturday: Prohibition Night</h5>
+                        <p> Club Week culminates in Prohibition Night. This semiformal event, featuring catered food and casino games staffed by professionals, is mandatory for all sophomore members to attend. </p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+              <!-- End: Section content to edit -->
+</section><!-- end: grid -->
+            </div><!-- .col-sm-11 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Features Grid ==================== -->
+        <!-- ==================== SECTION TYPE: Carousel ==================== -->
+        <!-- This type of section should contain slides with an icon, text, and an optional button -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/charterclub_smaller.jpg">
+          <div class="content-wrapper clearfix">
+
+            <!-- Start: Section content to edit -->
+
+              <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+                <div>
+                  <h1 style="text-align:center; margin-bottom: 50px;"> Perks for Members</h1>  
+                </div>
+                
+
+                <!-- Indicators - slide navigation -->
+                <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
+                <ol class="carousel-indicators title-indicators">
+                  <li data-target="#features-carousel" data-slide-to="0" class="active">Access to the Clubhouse</li>
+                  <li data-target="#features-carousel" data-slide-to="1">Unique People</li>
+                  <li data-target="#features-carousel" data-slide-to="2">Great Food</li>
+                  <li data-target="#features-carousel" data-slide-to="3">Wonderful Alumni</li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <!-- CAROUSEL SLIDE 1 -->
+                  <div class="item active">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/transp-image1.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-record"></span> -->
+                                            <h2 class="title">Access to the Clubhouse</h2>
+                      <p> Open 24/7, our clubhouse features a number of cozy fireplaces, antique leather sofas and spacious wooden tables for all of our members. It's not uncommon to see study groups and group projects to be working late into the night in a clubhouse that makes a rough night a little easier. </p>
+
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p>
+
+                      <!-- <a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p> -->
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                      <!-- <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h1>Lorem Ipsum</h1>
+                        <p><img data-img-src="assets/images/other_images/transp-image1.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                      </div> --><!-- #modal-content-2 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 1 -->
+
+                  <!-- CAROUSEL SLIDE 2 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/transp-image7.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-stats"></span> -->
+                      <h2 class="title"> Unique People </h2>
+                      <p> We're a club with some of the friendliest, most intelligent, and most talented people at Princeton. Looking at the demographics, Charter is made up of 30+ unique majors, has a ratio 45-55 of AB to BSE students, and embraces the owl as the most popular unofficial spirit animal. </p>
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p>
+                      <!-- <a href="" onclick="populate_and_open_modal(event, 'modal-content-3');" class="btn btn-outline-inverse btn-sm">read more</a></p> -->
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                      <!-- <div class="content-to-populate-in-modal" id="modal-content-3">
+                        <h1>Suspendisse molestie</h1>
+                        <p><img data-img-src="assets/images/other_images/transp-image6.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                      </div> --><!-- #modal-content-3 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 2 -->
+
+                  <!-- CAROUSEL SLIDE 3 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/transp-image6.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+
+                      <h2 class="title"> Great Food</h2>
+                      <p> As an eating club, we know our food. Charter features two pub nights a week, featuring items such as steak, breakfast-for-dinner, and braised pork. Even though each table was made to seat 8 people, it's not uncommon to see a table of 12 trying to fit one more person. Our chefs also make specially prepared meals for members with dietary restrictions. </p>
+
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      
+                      <!-- <a href="" onclick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">read more</a></p> -->
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                      <!-- <div class="content-to-populate-in-modal" id="modal-content-4">
+                        <h1>Maecenas id dolor</h1>
+                        <p><img data-img-src="assets/images/other_images/transp-image7.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                      </div> --><!-- #modal-content-4 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 3 -->
+
+                  <!-- CAROUSEL SLIDE 4 -->
+                  <div class="item">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/transp-image4.png" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-file"></span> -->
+                      <h2 class="title"> Wonderful Alumni</h2>
+                      <p>Once you are a Charter member, you are a member forever. Every year we see flocks of alumni, clothed in maroon and gold, return to the Indestructible. The friendships in our club span many generations and last a lifetime. Huzzah! </p>
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <!-- <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                     <!--  <div class="content-to-populate-in-modal" id="modal-content-5">
+                        <h1>Sed scelerisque</h1>
+                        <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
+                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
+                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
+                      </div> --><!-- #modal-content-5 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- CAROUSEL SLIDE 4 -->
+
+                </div><!-- .carousel-inner -->
+
+                <!-- Controls -->
+                <!-- the left/right arrows to move from one slide to the other -->
+                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
+                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>
+
+              </div><!-- #about-carousel -->
+
+            <!-- End: Section content to edit -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+
+ 
+
+        <!-- ==================== SECTION TYPE: Featured Items ==================== -->
+        <!-- This type of section should contain a max. of 3 items each consisting of an image and text. Each item may be linked -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="events" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/foyer.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Social Events</h1>
+                <h4> Members can +1 guests to any social event.</h4>
+                <!-- feature columns -->
+                <section class="feature-columns row clearfix">
+
+                  <!-- FEATURED ITEM 1 -->
+                  <article class="feature-col col-md-4">
+                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                    <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="assets/images/other_images/lawnparties.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                      </div>
+                      <div class="caption">
+                        <h5>Lawnparties </h5>
+                        <p> Over the past years, we've featured American Authors, Echosmith, and RDGLDGRN for our Lawnparties act. </p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                 <!--    <div class="content-to-populate-in-modal" id="modal-content-6">
+                      <h1> Professional Semformal acts</h1>
+                      <p> Every semester will have at least one semiformal where we invite comedians, magicians, and/or hypnotists to the clubhouse.  </p>
+                      <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
+                        <div>
+                          <h6 class="caption">Caption for Image 1</h6>
+                          <img class="lazyOwl" data-src="assets/images/other_images/bg1.jpg">
+                        </div>
+
+                        <div>
+                          <h6 class="caption">Caption for Image 2</h6>
+                          <img class="lazyOwl" data-src="assets/images/other_images/bg2.jpg">
+                        </div>
+
+                        <div>
+                          <h6 class="caption">Caption for Image 3</h6>
+                          <img class="lazyOwl" data-src="assets/images/other_images/bg3.jpg">
+                        </div>
+
+                      </div>
+                    </div> -->
+
+                  </article>
+                  <!-- END: FEATURED ITEM 1 -->
+   <!-- FEATURED ITEM 1 -->
+                  <article class="feature-col col-md-4">
+                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                    <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="assets/images/other_images/winetasting.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                      </div>
+                      <div class="caption">
+                    <h5> Winetasting </h5>
+                        <p> As Charter's most popular and highly anticipated semiformal event, semiannual Winetastings seats 150+ members and guests. </p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+                  </article>
+
+
+                  
+                  <!-- END: FEATURED ITEM 2 -->
+
+                  <!-- FEATURED ITEM 3 -->
+                  <article class="feature-col col-md-4">
+                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                    <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8', '', 'full-size');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="assets/images/other_images/magician_2013.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                      </div>
+                      <div class="caption">
+                        <h5>Professional Semiformal Acts</h5>
+                        <p>Every semester has at least one semiformal where we invite comedians, magicians, and/or hypnotists to the clubhouse.  </p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+<!--                     <div class="content-to-populate-in-modal" id="modal-content-8">
+                      <h1>Sed scelerisque</h1>
+                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. Adipiscing eros non elit imperdiet congue tiam at ligula sit amet arcu.</p>
+ -->
+                      <!-- alt image slider inside popup -->
+                      <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                      <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js) -->
+                      <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery">
+                        <div class="item"><a href="assets/images/other_images/bg1.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-1.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg2.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-2.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg3.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-3.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg4.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-4.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/charterg_smaller.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-5.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg6.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-6.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg2.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-2.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/bg3.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/gallery-thumb-3.jpg"></a></div>
+                      </div>
+                    </div><!-- #modal-content-8 -->
+
+                  </article>
+                  <!-- END: FEATURED ITEM 3 -->
+
+                </section><!-- end: .feature-columns -->
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Featured Items ==================== -->
+    
+
+      </section><!-- #main-content -->
+      <!-- ==================== END: MAIN CONTENT ==================== -->
+
+      <!-- Footer -->
+      <section id="footer">
+
+        <!-- Go to Top -->
+        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+        <!-- ==================================================================
+        SOCIAL ICONS
+        ==================================================================  -->
+        <!-- Each social icon item consists of the following:
+             - Link to the social page in href of <a>
+             - social icon in the <img> - a list of social icons options are found in the directory assets/images/theme_images/social_icons/ -->
+       <!--  <ul class="social-icons">
+          <li><a href="#" target="_blank" title="Facebook"><img src="assets/images/theme_images/social_icons/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#" target="_blank" title="Twitter"><img src="assets/images/theme_images/social_icons/twitter.png" alt="Twitter"></a></li>
+          <li><a href="#" target="_blank" title="Google+"><img src="assets/images/theme_images/social_icons/googleplus.png" alt="Google+"></a></li>
+        </ul> -->
+        <!-- ==================== END: Social Icons ==================== -->
+
+        <!-- copyright text -->
+<!--         <div class="footer-text-line">&copy; 2014 Twilli | Air</div>
+ -->      </section>
+      <!-- end: Footer -->      
+
+    </div><!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body">
+          </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal -->    
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("assets/images/other_images/charterg_smaller.jpg");
+    });
+    </script> 
+    <![endif]-->  
+
+    <!-- detect mobile browsers -->
+    <script src="assets/js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="assets/js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="assets/js/wow/wow.min.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->  
+
+  </body>
+</html>
